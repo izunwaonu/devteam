@@ -2,7 +2,7 @@
   "name": "devteam",
   "private": true,
   "version": "0.0.0",
-  "homepage": "devteamtech.izunwaonu.com.ng",
+  "homepage": "https://izunwaonu.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
