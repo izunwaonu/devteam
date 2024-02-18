@@ -52,10 +52,10 @@ const toggleMenu = ()=>{
           </li>
 
           <li className='group cursor-pointer'>
-          <a href="/contact" className="flex items-center gap-[2px] h-[72px]">
+          <Link to="/contact" className="flex items-center gap-[2px] h-[72px]">
             Contact Us{" "}
             {/* <span> <FaCaretDown className='transition-all duration-200 group-hover:rotate-180'/>  </span> */}
-            </a>
+            </Link>
             {/* Dropdown Full With Section */}
             {/* <div className='absolute left-0 z-[99999] hidden w-full rounded-b-3xl bg-white p-2 shadow-md 
             group-hover:block text-black '>
@@ -101,10 +101,11 @@ const toggleMenu = ()=>{
             </div> */}
           </li>
           <li className='group cursor-pointer'>
-          <a href="/about" className="flex items-center gap-[2px] h-[72px]">
-            About Us{" "}
+            <Link className='flex items-center gap-[2px] h-[72px]' to='/about'>  About Us</Link>
+          {/* <a href="/about" className="flex items-center gap-[2px] h-[72px]"> */}
+           {/* {" "} */}
             {/* <span> <FaCaretDown className='transition-all duration-200 group-hover:rotate-180'/>  </span> */}
-            </a>
+            
             {/* Dropdown Full With Section */}
             {/* <div className='absolute left-0 z-[99999] hidden w-full rounded-b-3xl bg-white p-2 shadow-md 
             group-hover:block text-black '>
@@ -147,9 +148,9 @@ const toggleMenu = ()=>{
               
             </div> */}
           </li>
-          <l1>
+          {/* <l1>
             <Link to="/privacy">Privacy Policy</Link>
-          </l1>
+          </l1> */}
           
           <li>
             <div className='flex items-center gap-4'>
