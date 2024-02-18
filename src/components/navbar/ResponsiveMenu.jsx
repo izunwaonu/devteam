@@ -21,13 +21,16 @@ const ResponsiveMenu = ({showMenu}) => {
                 <ul className='space-y-4 text-xl'>
                     <li>
                         <Link to='/' title='Home' />
-                        <a href="/">Home</a>
+                        
                     </li>
                     <li>
-                        <a href="/about">About Us</a>
+                        <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                        <a href="/contact">Contact Us</a>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/">About Our Team</Link>
                     </li>
                 </ul>
             </nav>
