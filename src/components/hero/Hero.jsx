@@ -10,7 +10,7 @@ const Hero = () => {
           <div
           data-aos="fade-right"
           data-aos-duration="400"
-          data-aos-one="true"
+          data-aos-one="false"
           className='flex flex-col items-center text-center gap-4 md:items-start md:text-left'>
             <h1 className=' text-xl md:text-2xl'>We Develop Apps that Become Popular on AppWorld</h1>
             <p className=' text-xl md:text-2xl text-white dark:text-slate-400'>We specialize in creating innovative and trending apps, 

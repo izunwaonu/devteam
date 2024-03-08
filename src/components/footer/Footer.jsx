@@ -52,7 +52,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
               <FaLocationArrow/>
               <p>Devteamtech Limited <br/>
-              609 South Lake Drive,<br/>
+              South Lake Drive,<br/>
               Lexington, SC 29072609<br/>
               United States</p>
               </div>

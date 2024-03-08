@@ -9,26 +9,20 @@ import Test4 from '../assets/yola.png';
 const people = [
     {
       name: 'Kosisochukwu Agu',
-      role: 'CEO/ Casa De Cariño',
+      role: 'CEO of Casa De Cariño',
       desc: 'Working with African Dev Team Tech was a game-changer for our business',
       imageUrl: Test2,
     },
-    {
-        name: 'Bernice',
-        role: 'Co-Founder / CEO',
-        desc: ' I know Dev Team Tech for delivering a seamless user experience',
-        imageUrl: Test4,
-        
-      },
+    
       {
         name: 'Faith Ugochi',
         role: 'Medical Laboratory Scientist (MLS)',
-        desc: 'African Dev Team Tech brought our vision to life with their innovative software solutions',
+        desc: 'African Dev Team Tech brought the vision of my business to life with their innovative software solutions',
         imageUrl: Test3,
       },
       {
         name: 'Matthew Ameh',
-        role: 'Co-Founder /OlivaBest Group',
+        role: 'The Founder of OlivaBest Group',
         desc: 'We are thrilled with the website African Dev Team Tech created for us; it is modern, responsive, and user-friendly',
         imageUrl: Test1,
        
@@ -48,8 +42,8 @@ const Testimonial = () => {
          className="max-w-2xl">
           <h2 className="text-3xl  dark:text-white font-bold tracking-tight text-gray-900 sm:text-4xl">Praise for Dev Team Tech</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600  dark:text-slate-200">
-          Hear directly from our satisfied clients as they share their 
-          experiences and feedback about  Dev Team Tech's services and solutions
+          Hear directly from some of our satisfied clients as they share their 
+          experiences about  Dev Team Tech's services and solutions
           </p>
         </div>
         <ul data-aos="fade-up"
