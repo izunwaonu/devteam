@@ -14,6 +14,7 @@ import HeroTwo from '../HeroTwo';
 import Testimonial from '../Testimonial';
 
 import Faqu from '../Faqu';
+import Team from '../team/Team';
 
 const Home = () => {
     useEffect(()=>{
@@ -38,6 +39,7 @@ const Home = () => {
     <OverviewCounter />
     <BannerDetails />
     <SimpleBanner />
+    <Team/>
     <Faqu/>
     <Testimonial/>
     {/* <Blogs /> */}
